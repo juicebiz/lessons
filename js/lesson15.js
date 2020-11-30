@@ -19,7 +19,7 @@
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 if (numberOfFilms < 10) {
-    console.log("Просмотрено довольно мало фильмов")
+    console.log("Просмотрено довольно мало фильмов");
 }
 else if (numberOfFilms < 30) {
     console.log("Вы классический зритель");
